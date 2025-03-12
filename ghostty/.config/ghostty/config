@@ -1,0 +1,19 @@
+font-family = MesloLGL Nerd Font Mono
+font-size = 12
+theme = catppuccin-frappe
+
+copy-on-select = clipboard
+mouse-hide-while-typing
+
+window-padding-x = 0
+window-padding-y = 0
+window-padding-balance = true
+
+cursor-color = #f2d5cf
+cursor-text = #000000
+
+confirm-close-surface = false
+
+# Keybindings
+keybind = cmd+r=clear_screen
+

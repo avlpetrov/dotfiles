@@ -1,0 +1,4 @@
+--verbose
+--target=~
+--ignore="README.md|scripts/"
+--dir=~/dotfiles
