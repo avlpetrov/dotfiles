@@ -1,0 +1,52 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "update.mode": "none", // Optional: Disable auto-updates to prevent telemetry reset
+    "workbench.startupEditor": "none",
+    "window.autoDetectHighContrast": false,
+    "editor.semanticTokenColorCustomizations": {},
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "editor.tokenColorCustomizations": {},
+    "python.experiments.enabled": false,
+    "terminal.integrated.autoReplies": {},
+    "terminal.external.osxExec": "iTerm.app",
+    "catppuccin.italicKeywords": false,
+    "catppuccin.accentColor": "blue",
+    "catppuccin.bracketMode": "dimmed",
+    "catppuccin.customUIColors": {},
+    "black-formatter.showNotifications": "always",
+    "explorer.confirmDragAndDrop": false,
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.previewColorScheme": "editorColorScheme",
+    "markdown-preview-enhanced.scrollSync": false,
+    "git.openRepositoryInParentFolders": "never",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "files.autoSaveDelay": 200,
+    "catppuccin.colorOverrides": {},
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.navigationControl.enabled": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.highlightGroups.highlights": {
+        "IncSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground"
+        },
+        "CurSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground"
+        },
+        "Search": {
+            "backgroundColor": "theme.editor.findMatchHighlightBackground"
+        },
+        "Substitute": {
+            "backgroundColor": "theme.editor.foreground",
+            "color": "theme.editor.background"
+        }
+    },
+    "window.customTitleBarVisibility": "never",
+    "extensions.ignoreRecommendations": true
+}
