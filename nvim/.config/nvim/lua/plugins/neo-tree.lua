@@ -1,6 +1,7 @@
 return {
   {
     "nvim-neo-tree/neo-tree.nvim",
+    enabled = false,
     opts = {
       close_if_last_window = true,
       filesystem = {
@@ -11,12 +12,4 @@ return {
       },
     },
   },
-  -- {
-  --   "monaqa/dial.nvim",
-  --   -- Disable unused keymaps
-  --   keys = {
-  --     { "<C-a>", false },
-  --     { "g<C-a>", false },
-  --   },
-  -- },
 }
