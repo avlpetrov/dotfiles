@@ -1,0 +1,160 @@
+# Vim Practice Exercises
+
+## 1. Basic Motions
+# Practice: h/j/k/l, w/W/e/E/b/B, f/F/t/T, ^/0/$
+
+Exercise Text:
+The quick brown fox jumps over the lazy dog. 
+Programming is fun when you have proper tools.
+1234567890 !@#$%^&*() Special characters need care.
+Find all 'a' characters in this sentence quickly.
+
+Tasks:
+1. Navigate to first 'fox' using f/F
+2. Change 'lazy' to 'sleepy' using cw
+3. Delete special characters line with dd
+4. Go to line start/end multiple times (0/$)
+5. Practice word navigation (w vs W, b vs B)
+
+## 2. Text Objects
+# Practice: iw/aw, i"/a", i(/a(, ip/ap, it/at
+
+Exercise Text:
+[Replace (parentheses) with {curly braces}]
+"Change these quotes to 'single quotes'"
+<div>Modify HTML tag contents</div>
+{ remove: "this", keep: "that" }
+
+Tasks:
+1. Change inside parentheses (ci()
+2. Delete HTML tag with dat
+3. Yank contents of curly braces (yi})
+4. Replace quoted text (ci" + type)
+
+## 3. Visual Block Mode
+# Practice: Ctrl-v, I/A, x/d
+
+Exercise Code:
+public class Example {
+    private int number = 10;
+    private String text = "hello";
+    private boolean flag = true;
+    private double value = 3.14;
+}
+
+TODO List:
+- [ ] Buy milk
+- [ ] Pay bills
+- [ ] Call mom
+- [ ] Exercise
+
+Tasks:
+1. Add semicolons to all lines in class
+2. Change all 'private' to 'public'
+3. Check all TODO boxes with Ctrl-v + X
+4. Align variable values using block insert
+
+## 4. Multi-line Editing
+# Practice: gv, . command, :norm, :m
+
+Exercise Text:
+apple
+banana
+cherry
+date
+elderberry
+
+CSS Rules:
+.header { color: blue; }
+.sidebar { width: 300px; }
+.main { padding: 20px; }
+.footer { border-top: 1px solid #ccc; }
+
+Tasks:
+1. Prefix all fruits with numbers (1. apple)
+2. Sort fruits alphabetically
+3. Change all CSS selectors to use kebab-case
+4. Duplicate CSS rules with different properties
+
+## 5. Search/Replace
+# Practice: /, n/N, :s, :g, :v
+
+Exercise Text:
+The cat sat on the mat. 
+Cats are wonderful pets.
+Catapults launch projectiles.
+Category theory is complex.
+
+Config File:
+host=localhost
+port=8080
+username=admin
+password=secret
+
+Tasks:
+1. Change all 'cat' variants to 'dog' (case-sensitive)
+2. Comment all config lines (# host=localhost)
+3. Delete lines containing 'password'
+4. Reverse key/value pairs (localhost=host)
+
+## 6. Advanced Navigation
+# Practice: }, {, H/M/L, Ctrl-o/Ctrl-i
+
+Exercise Text:
+Paragraph One:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Paragraph Two:
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Paragraph Three:
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Tasks:
+1. Jump between paragraphs using { and }
+2. Delete second paragraph with dap
+3. Navigate changes list (Ctrl-o/Ctrl-i)
+4. Move paragraph three above paragraph two
+
+## 7. Macro Challenges
+# Practice: q, @, @@
+
+Exercise Table:
+| Name     | Age | Email               |
+|----------|-----|---------------------|
+| John     | 25  | john@example.com    |
+| Jane     | 30  | jane.doe@test.org   |
+| Bob      | 28  | bob.smith@mail.net  |
+
+Code Snippet:
+function test() {
+    let x = 1;
+    let y = 2;
+    let z = 3;
+    return x + y + z;
+}
+
+Tasks:
+1. Format table columns using macros
+2. Convert let to const in even lines
+3. Add table borders using vertical block
+4. Create macro to duplicate variable lines
+
+## 8. Bonus: Real-world Refactoring
+# Combine all skills
+
+Original Code:
+function calculate(a,b){
+let result=a+b;
+console.log('Result:',result);
+return result;}
+
+Documentation:
+/* The calculate function takes two parameters and returns their sum. We should add validation and error handling. */
+
+Tasks:
+1. Reformat code with proper indentation
+2. Change function to subtract instead of add
+3. Add JSDoc comments
+4. Convert to arrow function
+5. Add parameter validation
