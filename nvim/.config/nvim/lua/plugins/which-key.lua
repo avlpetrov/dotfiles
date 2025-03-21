@@ -1,0 +1,12 @@
+-- https://github.com/folke/which-key.nvim
+return {}
+-- This config breaks the usual UI of the popup menu
+-- {
+--   "folke/which-key.nvim",
+--   config = function()
+--     require("which-key").setup({
+--       -- Delay the popup menu
+--       delay = 1500,
+--     })
+--   end,
+-- }
