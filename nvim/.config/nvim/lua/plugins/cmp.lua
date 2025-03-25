@@ -4,7 +4,7 @@ return {
   {
     "hrsh7th/nvim-cmp",
     init = function()
-      vim.g.cmp_disabled = false
+      vim.g.cmp_disabled = true
     end,
     opts = function(_, opts)
       opts.enabled = function()
