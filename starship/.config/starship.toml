@@ -12,12 +12,12 @@ disabled = false
 
 # Starship modules
 [character]
-success_symbol = "[I ❯](green)"
-error_symbol = "[I ❯](green)"
-vimcmd_symbol = "[N ❮](blue)"
-vimcmd_replace_one_symbol = "[N ❮](blue)"
-vimcmd_replace_symbol = "[R ❮](peach)"
-vimcmd_visual_symbol = "[V ❮](purple)"
+success_symbol = "[I ❯](bold green)"
+error_symbol = "[I ❯](bold green)"
+vimcmd_symbol = "[N ❮](bold blue)"
+vimcmd_replace_one_symbol = "[N ❮](bold blue)"
+vimcmd_replace_symbol = "[R ❮](bold peach)"
+vimcmd_visual_symbol = "[V ❮](bold purple)"
 
 [git_branch]
 symbol = " "
