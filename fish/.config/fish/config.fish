@@ -1,4 +1,8 @@
 if status is-interactive
+    # Set up `starship` prompt
+    starship init fish | source
+    enable_transience
+
     # Commands to run in interactive sessions can go here
     if string match -q -- '*ghostty*' $TERM
         set -g fish_vi_force_cursor 1
