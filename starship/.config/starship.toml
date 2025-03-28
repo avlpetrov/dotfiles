@@ -5,15 +5,31 @@
 # Palettes must be defined _after_ this line
 palette = "catppuccin_frappe"
 
+right_format = """$time"""
+
+[time]
+disabled = false
+
 # Starship modules
 [character]
-success_symbol = "[❯](green)"
-error_symbol = "[❯](red)"
-vimcmd_symbol = "[❮](blue)"
+success_symbol = "[I ❯](green)"
+error_symbol = "[I ❯](green)"
+vimcmd_symbol = "[N ❮](blue)"
+vimcmd_replace_one_symbol = "[N ❮](blue)"
+vimcmd_replace_symbol = "[R ❮](peach)"
+vimcmd_visual_symbol = "[V ❮](purple)"
 
 [git_branch]
 symbol = " "
 style = "bold mauve"
+
+[git_status]
+ahead = '⇡${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+behind = '⇣${count}'
+
+[kubernetes]
+disabled = false
 
 [directory]
 read_only = " 󰌾"
