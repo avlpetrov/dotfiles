@@ -46,5 +46,10 @@ alias la="ls -la"
 alias lt="ls --tree"
 alias lta="ls -la --tree"
 
+# K8s aliases
+alias k='kubectl'
+alias kg='kubectl get'
+alias kgpo='kubectl get pod'
+
 # Set up shell completions for `uv`
 uv generate-shell-completion fish | source
