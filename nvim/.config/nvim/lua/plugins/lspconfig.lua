@@ -5,8 +5,13 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
+        -- https://docs.astral.sh/ruff/editors/settings/#configurationpreference
+        ruff = {
+          enabled = true,
+        },
         -- https://github.com/python-lsp/python-lsp-server/blob/develop/CONFIGURATION.md
         pylsp = {
+          enabled = true,
           settings = {
             pylsp = {
               plugins = {
@@ -14,8 +19,12 @@ return {
                   enabled = true,
                 },
 
-                -- Linting
+                -- Formatting
+                yapf = { enabled = false },
+
+                -- Default Linting
                 pylint = { enabled = false, executable = "pylint" },
+                autopep8 = { enabled = false },
                 pyflakes = { enabled = false },
                 mccabe = { enabled = false },
                 pycodestyle = { enabled = false },
