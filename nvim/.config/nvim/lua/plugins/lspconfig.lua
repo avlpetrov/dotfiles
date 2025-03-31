@@ -13,6 +13,12 @@ return {
                 rope_autoimport = {
                   enabled = true,
                 },
+
+                -- Linting
+                pylint = { enabled = false, executable = "pylint" },
+                pyflakes = { enabled = false },
+                mccabe = { enabled = false },
+                pycodestyle = { enabled = false },
               },
             },
           },
