@@ -8,6 +8,16 @@ return {
         -- https://docs.astral.sh/ruff/editors/settings/#configurationpreference
         ruff = {
           enabled = true,
+          init_options = {
+            settings = {
+              lineLength = 100,
+              organizeImports = true,
+              showSyntaxErrors = false,
+              lint = {
+                select = { "E", "F" },
+              },
+            },
+          },
         },
         -- https://github.com/python-lsp/python-lsp-server/blob/develop/CONFIGURATION.md
         pylsp = {
@@ -35,15 +45,21 @@ return {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         -- https://github.com/microsoft/pyright/blob/main/docs/settings.md
         pyright = {
-          enabled = false,
+          enabled = true,
           settings = {
+            pyright = {
+              disableLanguageServices = true,
+              disableOrganizeImports = true,
+              disableTaggedHints = true,
+            },
             python = {
               analysis = {
-                typecheckingmode = "basic",
-                autoimportcompletions = true,
-                autosearchpaths = true,
-                diagnosticmode = "workspace",
-                uselibrarycodefortypes = true,
+                diagnosticMode = "off",
+                typeCheckingMode = "basic",
+                autoimportcompletions = false,
+                autosearchpaths = false,
+                -- diagnosticmode = "workspace",
+                -- uselibrarycodefortypes = true,
               },
             },
           },
