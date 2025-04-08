@@ -20,3 +20,5 @@ vim.api.nvim_create_autocmd("User", {
 
 -- Expand 'cc' into 'CodeCompanion' in the command line
 vim.cmd([[cab cc CodeCompanion]])
+
+vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
