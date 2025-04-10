@@ -23,3 +23,16 @@ vim.cmd([[cab cc CodeCompanion]])
 
 -- Disable spellchecking mode by default
 vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+
+-- Autoformat setting (disable for Markdown by default)
+-- local set_autoformat = function(pattern, bool_val)
+--   vim.api.nvim_create_autocmd({ "FileType" }, {
+--     pattern = pattern,
+--     callback = function()
+--       vim.b.autoformat = bool_val
+--     end,
+--   })
+-- end
+
+-- Add languages here
+-- set_autoformat({ "python" }, false)
