@@ -31,7 +31,9 @@ return {
       enable = false,
     },
     disable_frontmatter = true, -- Disable frontmatter handling and autoformatting
-
+    templates = {
+      folder = "~/Documents/Personal/Obsidian/Vault/mind-vault/Notes/Templates",
+    },
     -- see docs for full list of options
     -- https://github.com/epwalsh/obsidian.nvim?tab=readme-ov-file#configuration-options
   },
