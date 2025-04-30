@@ -45,8 +45,7 @@ return {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         -- https://github.com/microsoft/pyright/blob/main/docs/settings.md
         pyright = {
-          -- Temporarily disabled due to conflict with `inc-rename.nvim` (was going to add mypy to pylsp and use it instead anyway)
-          enabled = false,
+          enabled = true,
           settings = {
             pyright = {
               disableLanguageServices = true,
