@@ -25,7 +25,7 @@ if status is-interactive
     set fish_cursor_visual block
 end
 
-export XDG_CONFIG_HOME="$HOME/.config"
+set -Ux XDG_CONFIG_HOME "$HOME/.config"
 
 # Set NeoVim as the default editor
 set -gx EDITOR nvim
