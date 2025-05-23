@@ -11,6 +11,6 @@ return {
   opts = {
     -- configuration goes here
     lang = "python3",
-    image_support = true,
+    image_support = false,
   },
 }
