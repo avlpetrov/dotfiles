@@ -16,4 +16,6 @@ confirm-close-surface = false
 
 # Keybindings
 keybind = cmd+r=clear_screen
+keybind = ctrl+k=scroll_page_up
+keybind = ctrl+j=scroll_page_down
 
