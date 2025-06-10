@@ -31,6 +31,8 @@ set -Ux XDG_CONFIG_HOME "$HOME/.config"
 set -gx EDITOR nvim
 
 # Aliases
+alias python="python3"
+
 alias lg="lazygit"
 
 alias gs="git status"
