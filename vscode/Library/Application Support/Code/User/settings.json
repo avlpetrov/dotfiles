@@ -27,7 +27,6 @@
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "chat.commandCenter.enabled": false,
-    "workbench.activityBar.location": "hidden",
     "workbench.navigationControl.enabled": false,
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
@@ -47,6 +46,8 @@
             "color": "theme.editor.background"
         }
     },
-    "window.customTitleBarVisibility": "never",
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "workbench.activityBar.location": "bottom",
+    "window.commandCenter": false,
+    "continue.telemetryEnabled": false
 }
