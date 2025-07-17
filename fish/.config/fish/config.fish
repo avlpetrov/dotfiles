@@ -30,6 +30,9 @@ set -Ux XDG_CONFIG_HOME "$HOME/.config"
 # Set NeoVim as the default editor
 set -gx EDITOR nvim
 
+# Local K8s with lima
+set -gx KUBECONFIG $(limactl list k8s --format 'unix://{{.Dir}}/copied-from-guest/kubeconfig.yaml')
+
 # Aliases
 alias python="python3"
 
