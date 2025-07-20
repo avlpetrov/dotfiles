@@ -9,7 +9,7 @@
     "editor.tokenColorCustomizations": {},
     "python.experiments.enabled": false,
     "terminal.integrated.autoReplies": {},
-    "terminal.external.osxExec": "iTerm.app",
+    "terminal.external.osxExec": "Ghostty.app",
     "catppuccin.italicKeywords": false,
     "catppuccin.accentColor": "blue",
     "catppuccin.bracketMode": "dimmed",
