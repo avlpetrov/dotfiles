@@ -34,6 +34,9 @@ set -gx EDITOR nvim
 set -gx KUBECONFIG $(limactl list k8s --format 'unix://{{.Dir}}/copied-from-guest/kubeconfig.yaml')
 
 # Aliases
+alias vim="nvim"
+alias v="nvim"
+
 alias python="python3"
 
 alias lg="lazygit"
