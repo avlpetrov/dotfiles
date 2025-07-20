@@ -1,5 +1,1 @@
-return {
-  {
-    "ThePrimeagen/vim-be-good",
-  },
-}
+return {}
