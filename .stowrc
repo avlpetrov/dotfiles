@@ -1,5 +1,4 @@
 --verbose
 --target=~
 --ignore="README.md"
---ignore=".skhdrc"
 --ignore="karabiner"
