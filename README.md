@@ -1,6 +1,6 @@
 # Dotfiles
 
-## Installation
+## Usage
 
 Remove `--simulate` to disable dry-run.
 
