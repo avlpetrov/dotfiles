@@ -7,7 +7,7 @@ return {
       servers = {
         -- https://docs.astral.sh/ruff/editors/settings/#configurationpreference
         ruff = {
-          enabled = true,
+          enabled = false,
           init_options = {
             settings = {
               lineLength = 120,
