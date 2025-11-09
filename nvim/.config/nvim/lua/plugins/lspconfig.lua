@@ -10,9 +10,10 @@ return {
           enabled = true,
           init_options = {
             settings = {
-              lineLength = 100,
+              lineLength = 120,
               organizeImports = true,
               showSyntaxErrors = false,
+              configurationPreference = "filesystemFirst",
               lint = {
                 select = { "E", "F" },
               },
